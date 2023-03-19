@@ -1,5 +1,6 @@
 import "./App.css";
-import SliderToGrow from "./projects/09-slider-to-grow/SliderToGrow";
+import HiddenSearchBar from "./projects/10-hidden-search-bar/HiddenSearchBar";
+// import SliderToGrow from "./projects/09-slider-to-grow/SliderToGrow";
 // import SlideToUnlockApp from "./projects/08-slide-to-unlock/SlideToUnlockApp";
 // import LightAndDarkMode from "./projects/07-LightAndDarkModeApp/LightAndDarkMode";
 // import AlertApp from "./projects/05-alerts/AlertApp";
@@ -20,7 +21,8 @@ function App() {
       {/* <TemperatureControllerApp /> */}
       {/* <LightAndDarkMode /> */}
       {/* <SlideToUnlockApp /> */}
-      <SliderToGrow />
+      {/* <SliderToGrow /> */}
+      <HiddenSearchBar />
     </div>
   );
 }
